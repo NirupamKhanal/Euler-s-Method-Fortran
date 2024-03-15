@@ -9,8 +9,8 @@ print*, "Please insert initial value condition of y, i.e. y0"
 read*,y 
 print*, "Please insert the width of the x (i.e. interval) or value of h"
 read*,h
-print*, "Insert the funciton"
-read*,f
+!print*, "Insert the funciton"
+!read*,f
 n=int((xg-x)/h+0.5)
 do i=1,n 
 x=x+h
